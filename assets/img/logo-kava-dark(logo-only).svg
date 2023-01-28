@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="39.194897mm"
+   height="49.957138mm"
+   viewBox="0 0 39.194897 49.957138"
+   version="1.1"
+   id="svg1277"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo-kava-dark(logo-only).svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1279"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.46324355"
+     inkscape:cx="189.96487"
+     inkscape:cy="74.474863"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1274" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(16.799862,-111.01125)">
+    <path
+       id="path219490"
+       style="color:#000000;fill:#22d3ee;fill-opacity:1;stroke-width:6.56261;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+       d="m 9.33785,115.53362 a 3.2816426,3.2816426 0 0 0 -2.84198,1.64056 l -5.82156,10.08375 a 3.2816426,3.2816426 0 0 0 0,3.28114 l 5.82156,10.08374 a 3.2816426,3.2816426 0 0 0 2.84198,1.64056 h 7.85431 a 3.2816426,3.2816426 0 0 1 -2.84201,-1.64056 L 8.52861,130.53907 a 3.2816426,3.2816426 0 0 1 0,-3.28114 l 5.82154,-10.08375 a 3.2816426,3.2816426 0 0 1 2.84201,-1.64056 z" />
+    <path
+       id="path219492"
+       style="color:#000000;fill:#cffafe;fill-opacity:1;stroke-width:6.56261;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none"
+       d="m -4.247,130.07274 a 3.2816426,3.2816426 0 0 1 2.84198,1.64057 l 5.82156,10.08375 a 3.2816426,3.2816426 0 0 1 0,3.28114 l -5.82156,10.08373 A 3.2816426,3.2816426 0 0 1 -4.247,156.8025 h -7.85432 a 3.2816426,3.2816426 0 0 0 2.84201,-1.64057 l 5.82154,-10.08373 a 3.2816426,3.2816426 0 0 0 0,-3.28114 l -5.82154,-10.08375 a 3.2816426,3.2816426 0 0 0 -2.84201,-1.64057 z" />
+  </g>
+</svg>
