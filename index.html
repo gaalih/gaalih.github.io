@@ -109,17 +109,13 @@
     <!-- Header Area wrapper End -->
 
     <!-- Hero Area Start -->
-    <section
-      id="hero-area"
-      class="pt-24 pb-52"
-      >
-      <!-- class="pt-36 pb-52 bg-no-repeat bg-cover" -->
-      <!-- style="background-image: url('assets/img/bg.png')" -->
+    <section id="hero-area" class="pt-24 pb-52">
       <div class="container">
-          <div class="pt-24 pb-52 w-full text-center flex justify-between relative">
+        <div class="flex flex-wrap">
+            <div class="w-full self-center px-10 lg:w-1/2">
               <h2
               @apply
-              class=" text-2xl font-light leading-relaxed text-slate-700 mb-10 mt-5 wow fadeInUp text-left"
+              class="text-2xl font-light leading-relaxed text-slate-700 wow fadeInUp text-left"
               data-wow-delay="1s"
             >
               Hi, my name is
@@ -127,7 +123,7 @@
                 Galih Riyadi
               </b>
               <small class="font-medium text-base tracking-wider block mb-7">Frontend developer</small>
-              <small class="font-light text-sm tracking-wide block w-3/4 text-justify">
+              <small class="font-light text-sm tracking-wide block w-full text-justify">
                 Bekerja di bidang Software Development, Khususnya pada Aplikasi Web.
   Memiliki skill dan juga pengalaman dalam pengembangan Web, Baik itu Front-end maupun
   Back-end developer. Dan juga memiliki ketertarikan di bidang seni seperti :
@@ -136,19 +132,26 @@
   </ul>
               </small>
             </h2>
-
-              <div class="w-full relative">
-                <div class="bg-sky-500/50 rounded-full w-96 h-56 scale-125 rotate-45 absolute top-10 z-0 -mr-7 right-16"></div>
-                <img
-                  src="assets/img/emoji/emoji007a.png"
-                  alt="galih"
-                  width="1500"
-                  class="wow fadeInUp drop-shadow-xl -mt-28 absolute z-10"
-                  />
-              </div>
+            </div>
+            <div class="w-full self-center px-5 py-10 lg:w-1/2">
+              <div class="relative ">
+              <img
+              src="assets/img/emoji/emoji007a.png"
+              alt="galih"
+              width="400"
+              class="max-w-full mx-auto"
+              />
+              <span class="absolute bottom-0 right-1/2 -z-10 translate-x-1/2">
+                <svg viewBox="0 0 200 200" width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="#38bdf8" d="M57.7,-34.4C62,-25.7,44.1,-5.3,30.8,11.2C17.5,27.6,8.7,40.2,-1.6,41.1C-11.9,42,-23.8,31.3,-35.5,15.8C-47.2,0.3,-58.6,-20,-52.6,-29.6C-46.6,-39.2,-23.3,-38.1,1.7,-39C26.6,-40,53.3,-43.1,57.7,-34.4Z" transform="translate(100 100) scale(1.7)" />
+                </svg>
+              </span>
+            </div>
           </div>
+
+        </div>
       </div>
-    </section>
+    </section>    
     <!-- Hero Area End -->
 
     <!-- Feature Section Start -->
@@ -255,17 +258,17 @@
         <!-- Slider -->
         <div class="ag-app-slide-block">
           <div class="ag-format-container">
-            <div class="ag-app-slide_box">
+            <div class="ag-app-slide_box w-screen -ml-5">
                 <div class="ag-app-slide_main">
-                  <div class="ag-app-slide-carousel_box px-9 py-8">
-                    <div class="js-ag-app-slide-carousel_arr__prev ag-app-slide-carousel_arr">
+                  <div class="ag-app-slide-carousel_box px-5 py-8 w-screen">
+                    <!-- <div class="js-ag-app-slide-carousel_arr__prev ag-app-slide-carousel_arr">
                       <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
                     </div>
                     <div class="js-ag-app-slide-carousel_arr__next ag-app-slide-carousel_arr">
                       <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
-                    </div>
+                    </div> -->
       
-                    <div class="swiper-container swiper-container-initialized swiper-container-horizontal bg-red-200 h-[23rem] max-w-2xl rounded-[2rem] border-[1.2rem] border-sky-400/80 shadow-xl shadow-blue-600/10">
+                    <div class="swiper-container swiper-container-initialized swiper-container-horizontal bg-red-200 h-[23rem] max-w-2xl rounded-[2rem] border-8 border-sky-400/80 shadow-xl shadow-blue-600/10">
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
                           <div class="slider-item">
@@ -307,9 +310,8 @@
                   </div>
       
                   <div class="ag-app-slide-control_box">
-                    <h2 class="text-sky-600 text-center uppercase font-extrabold tracking-wide text-lg pb-5">Project List</h2>
-      
-                    <div class="js-ag-app-slide-control_list"></div>
+                    <h2 class="text-sky-600 text-center uppercase font-extrabold tracking-wide text-lg pb-10">Project List</h2>
+                    <div class="js-ag-app-slide-control_list !py-20 lg:py-0"></div>
                   </div>
                 </div>
             </div>

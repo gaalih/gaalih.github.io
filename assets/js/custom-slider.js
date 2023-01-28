@@ -51,10 +51,10 @@
             '<div class="ag-app-slide-control_step">' +
             (index + 1) +
             "</div>" +
-            '<div class="ag-app-slide-control_info">' +
+            '<div class="ag-app-slide-control_info px-10 py-10">' +
             '<div class="ag-app-slide-control-info_title text-slate-600 text-left">' +
             agApplendMainManualList[index][0] +
-            "</div>" +
+            "</div><br/>" +
             '<div class="ag-app-slide-control-info_descr text-slate-500 text-xs text-left">' +
             agApplendMainManualList[index][1] +
             "</div>" +

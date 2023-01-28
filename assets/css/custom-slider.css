@@ -40,9 +40,9 @@ body {
 }
 
 .ag-app-slide-carousel_box {
-  width: 45rem;
+  /* width: 45rem; */
   height: auto;
-  min-width: 45rem;
+  /* min-width: 45rem; */
   /* padding: 2rem 1rem; */
   /* background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/swiper-slide-devices/images/android.png)
     no-repeat; */
@@ -57,7 +57,7 @@ body {
   content: "";
   display: block;
   height: auto;
-  width: 45rem;
+  /* width: 45rem; */
   /* background: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/swiper-slide-devices/images/android.png)
     no-repeat; */
   /* background: url("../img/ipad2.png") no-repeat; */
@@ -182,8 +182,8 @@ body {
   background: none;
 }
 .ag-app-slide-control-info_title {
-  line-height: 32px;
-  margin-bottom: 20px;
+  /* line-height: 32px; */
+  /* margin-bottom: 20px; */
   font-weight: bold;
   font-size: 14px;
 }
@@ -318,8 +318,8 @@ body {
     display: block;
   }
   .ag-app-slide-control-info_title {
-    margin-bottom: 10px;
-    line-height: 16px;
+    /* margin-bottom: 10px; */
+    /* line-height: 16px; */
     text-align: left;
   }
   .js-ag-app-slide-control_item__active .ag-app-slide-control-info_title {
