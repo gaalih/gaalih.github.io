@@ -16,6 +16,10 @@ p {
   @apply text-slate-700;
   /* @apply text-slate-700; */
 }
+
+/* .modal{
+  @apply 
+} */
 .navbar-brand p {
   @apply text-slate-700/50 font-bold text-4xl -tracking-widest;
 }
