@@ -28,12 +28,12 @@ $(document).ready(function () {
 
   $.each(projects, function (key, value) {
     $("#section-projects").append(`
-    <card key="${key}" data-target="#${value.id}" class="btn-modal relative h-60 sm:h-96 w-full rounded-xl bg-sky-400 p-1 shadow-xl shadow-sky-500/20 scale-95 hover:scale-100 transition-all ease-in-out duration-500">
+    <card key="${key}" data-target="#${value.id}" class="btn-modal relative h-60 sm:h-52 w-full sm:w-1/4 rounded-xl bg-sky-400 p-1 shadow-xl shadow-sky-500/20 scale-95 hover:scale-100 transition-all ease-in-out duration-500">
             <img src="${value.images[0]}" class="object-cover w-full h-full rounded-xl" />
             <div class="absolute w-full h-full bg-transparent z-20 top-0 left-0 rounded-xl"></div>
             <div class="absolute z-10 w-full h-1/2 bottom-0 left-0 bg-sky-500/50 backdrop-blur-lg rounded-xl flex flex-col items-center justify-center text-center rounded-t-none">
-                <p class="text-sm px-10 text-slate-50 mt-1 max-h-28 mb-2">
-                  <b class="block text-2xl font-semibold tracking-wider">${value.judul}</b>
+                <p class="text-sm sm:text-xs px-10 text-slate-50 mt-1 max-h-28 mb-2">
+                  <b class="block text-2xl sm:text-sm font-semibold tracking-wider">${value.judul}</b>
                   <span>
                   ${value.deskripsi}
                   </span>
@@ -57,7 +57,7 @@ $(document).ready(function () {
                       <p class="text-left">Deskripsi : <br/>${value.deskripsi}</p>
                       <p class="text-left mt-3 text-sky-500">Teknologi : <br/>${value.teknologi}</p>
                     </div>
-                    <button class="close-modal p-3 bg-red-400 rounded-lg w-1/2 text-white self-center">close</button>
+                    <button class="close-modal p-3 bg-red-400 rounded-lg w-1/2 text-white self-center sm:mt-5">close</button>
                   </div>
                 </div>
               </div>
