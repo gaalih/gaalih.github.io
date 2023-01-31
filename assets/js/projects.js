@@ -111,12 +111,12 @@ $(document).ready(function () {
                     X
                   </button>
                   <div class="flex flex-col justify-between min-h-[52vh]">
-                    <div class="flex gap-2 sm:flex-row flex-col">
+                    <div class="flex gap-4 sm:flex-row flex-col">
                     <img src="${value.images[0]}" class="sm:w-4/5 w-full h-auto max-h-[31rem] rounded-xl mb-3" />
-                    <div class="sm:w-1/5 w-full">
-                      <span class="text-2xl font-medium text-left">${value.judul}</span>
-                        <p class="text-left">Deskripsi : <br/>${value.deskripsi}</p>
-                        <p class="text-left mt-3 text-sky-500">Teknologi : <br/>${value.teknologi}</p>
+                    <div class="sm:w-1/5 w-full pt-0 lg:pt-12">
+                      <p class="text-2xl font-medium text-center lg:text-right mb-4">${value.judul}</p>
+                        <p class="text-center lg:text-right">Deskripsi : <br/>${value.deskripsi}</p>
+                        <p class="text-center lg:text-right mt-3 text-sky-500">Teknologi : <br/>${value.teknologi}</p>
                     <button class="close-modal p-2 bg-red-400 rounded-lg w-4/5 text-white self-center mt-10 text-xs">close</button>
                     </div>
                     </div>

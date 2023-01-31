@@ -27,7 +27,6 @@
 
     <!-- Animate -->
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
     <!-- Tiny Slider  -->
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/tiny-slider.css" /> -->
     <!-- Tailwind css -->
@@ -43,6 +42,12 @@
       type="text/css"
       href="assets/css/custom-slider.css"
     />
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/animate.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <link rel="stylesheet" type="text/css" href="src/style.css" />
     <!-- <link type="text/css" rel="stylesheet" href="assets/css/lightslider.css" /> -->
   </head>
@@ -106,8 +111,7 @@
         <div class="flex flex-wrap">
           <div class="w-full self-center px-10 lg:w-1/2">
             <h2
-              @apply
-              class="text-lg sm:text-2xl font-light leading-relaxed text-slate-700 wow fadeInUp text-left"
+              class="wow text-lg sm:text-2xl font-light leading-relaxed text-slate-700 fadeInUp text-left"
               data-wow-delay="1s"
             >
               <span class="pl-2 tracking-wider"> Hi, i'am </span>
@@ -402,22 +406,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
     <!-- <script src="assets/js/lightslider.js"></script> -->
     <!-- <script src="assets/js/custom-slider.js"></script> -->
-    <script src="assets/js/wow.js"></script>
     <!-- <script src="assets/js/tiny-slider.js"></script> -->
     <script src="assets/js/contact-form.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/projects.js"></script>
     <script src="assets/js/skills.js"></script>
+    <script src="assets/js/wow.js"></script>
 
     <script>
       $(document).ready(function () {
         // $('.carousel').flickity();
-        $(".carousel").lightSlider({
-          adaptiveHeight: true,
-          item: 1,
-          slideMargin: 0,
-          loop: true,
-        });
         $(".btn-modal").click(function () {
           const modalBox = $(this).attr("data-target");
           $(modalBox).show();
