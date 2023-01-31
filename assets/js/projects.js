@@ -5,22 +5,27 @@ $(document).ready(function () {
       judul: "Elisa",
       deskripsi: "Aplikasi monitoring listrik dan Air",
       images: [
-        "https://picsum.photos/id/0/1000/600",
-        "https://picsum.photos/id/2/1000/600",
-        "https://picsum.photos/id/5/1000/600",
-        "https://picsum.photos/id/6/1000/600",
+        "assets/img/projects/elisa/001.webp",
+        "assets/img/projects/elisa/002.webp",
+        "assets/img/projects/elisa/003.webp",
+        "assets/img/projects/elisa/004.webp",
+        "assets/img/projects/elisa/005.webp",
+        "assets/img/projects/elisa/006.webp",
       ],
       teknologi: "ReactJS, NextJS, TailwindCSS, Typescript",
     },
     {
       id: "modal-microgrid",
       judul: "Microgrid",
-      deskripsi: "Aplikasi monitoring listrik dan Air",
+      deskripsi:
+        "Aplikasi monitoring distribusi energi dalam suatu area jaringan listrik",
       images: [
-        "https://picsum.photos/id/20/1000/600",
-        "https://picsum.photos/id/24/1000/600",
-        "https://picsum.photos/id/30/1000/600",
-        "https://picsum.photos/id/36/1000/600",
+        "assets/img/projects/microgrid/001.webp",
+        "assets/img/projects/microgrid/002a.webp",
+        "assets/img/projects/microgrid/002b.webp",
+        "assets/img/projects/microgrid/003a.webp",
+        "assets/img/projects/microgrid/003b.webp",
+        "assets/img/projects/microgrid/004a.webp",
       ],
       teknologi: "ReactJS, NextJS, TailwindCSS, Typescript",
     },
@@ -32,12 +37,12 @@ $(document).ready(function () {
             <img src="${value.images[0]}" class="object-cover w-full h-full rounded-xl" />
             <div class="absolute w-full h-full bg-transparent z-20 top-0 left-0 rounded-xl"></div>
             <div class="absolute z-10 w-full h-1/2 bottom-0 left-0 bg-sky-500/50 backdrop-blur-lg rounded-xl flex flex-col items-center justify-center text-center rounded-t-none">
-                <p class="text-sm sm:text-xs px-10 text-slate-50 mt-1 max-h-28 mb-2">
+                <p class="text-sm sm:text-xs px-10 text-slate-700 mt-1 max-h-28 mb-2">
                   <b class="block text-2xl sm:text-sm font-semibold tracking-wider">${value.judul}</b>
                   <span>
                   ${value.deskripsi}
                   </span>
-                  <span class="flex gap-2 flex-wrap text-xs text-black mt-1">
+                  <span class="flex gap-2 flex-wrap text-xs text-slate-500 mt-1">
                   Teknologi : ${value.teknologi}
                   </span>
                 </p>
@@ -45,7 +50,7 @@ $(document).ready(function () {
           </card>
               
               <div id="${value.id}" class="modal w-full h-full hidden">
-                <div class="w-full h-full bg-sky-500/10 backdrop-blur-2xl top-0 left-0 right-0 bottom-0 fixed z-40"></div>
+                <div class="w-full h-full bg-sky-400/10 backdrop-blur-lg top-0 left-0 right-0 bottom-0 fixed z-40"></div>
                 <div class="sm:w-[385px] sm:min-w-[40vw] min-w-[80vw] min-h-[50vh] flex-col items-center gap-2 -translate-y-1/2 p-6 bg-white shadow-2xl rounded-lg top-1/2 left-1/2 -translate-x-1/2 fixed flex z-50 animate-fadeIn">
                   <button class="close-modal w-10 h-10 rounded-full p-2 absolute z-40 -top-2 -right-2 bg-red-400 text-white font-bold shadow-md shadow-red-500/20 scale-95 hover:scale-100 transition-all ease-in-out duration-300">
                     X
